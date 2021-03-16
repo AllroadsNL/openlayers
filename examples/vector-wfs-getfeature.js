@@ -48,7 +48,7 @@ const map = new Map({
 // generate a GetFeature request
 const featureRequest = new WFS().writeGetFeature({
   srsName: 'EPSG:3857',
-  featureNS: 'http://openstreemap.org',
+  featureNS: 'http://openstreetmap.org',
   featurePrefix: 'osm',
   featureTypes: ['water_areas'],
   outputFormat: 'application/json',
